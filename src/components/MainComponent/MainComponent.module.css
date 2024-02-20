@@ -3,7 +3,9 @@
   flex-direction: column;
   gap: 0px;
 }
-
+.only4Items {
+  gap: 15px;
+}
 .row {
   display: grid;
   grid-template-columns:
@@ -11,8 +13,16 @@
     auto;
   gap: 10px;
 }
+.only4Items .row {
+  grid-template-columns: auto auto;
+  gap: 10px 180px;
+}
 .row3 {
   gap: 0;
+}
+.only4Items .row2 {
+  grid-template-columns: auto auto auto;
+  gap: 10px 180px;
 }
 .middle {
   padding: 10px 0px;
@@ -28,6 +38,10 @@
 }
 .middleMore {
   padding-top: 40px;
+}
+.only4Items .middle {
+  padding-left: 60px;
+  padding-right: 0;
 }
 .title {
   font-family: var(--titleFontFamily);
