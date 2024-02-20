@@ -1,14 +1,7 @@
 import { useState } from "react";
 
 import MainComponent from "./components/MainComponent/MainComponent";
-import BottomLeft from "./components/BottomLeft";
-import TopLeft from "./components/TopLeft";
-import TopMiddle from "./components/TopMiddle";
-import TopRight from "./components/TopRight";
-import MiddleLeft from "./components/MiddleLeft";
-import MiddleRight from "./components/MiddleRight";
-import BottomRight from "./components/BottomRight";
-import BottomMiddle from "./components/BottomMiddle";
+
 import Light from "./images/Light";
 import Spark from "./images/Spark";
 

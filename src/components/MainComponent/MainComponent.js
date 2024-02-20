@@ -16,7 +16,6 @@ const MainComponent = ({
   titleSpark,
   titleColor,
 }) => {
-  const svgs = [<TopLeft />, <TopMiddle />, <TopRight />, <MiddleLeft />];
   return (
     <div
       className="min-h-screen flex items-center justify-center w-full"
